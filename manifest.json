@@ -1,22 +1,18 @@
 {
-  
   "manifest_version": 2,
   "name": "BitBucket launcher",
   "offline_enabled":false,
   "version": "0.1",
   "description": "A handy BitBucket launcher for Google Chrome",
   "icons":{
-    "512":"512.png"
+    "512":"512.png",
+    "128":"128.png",
+    "64":"64.png",
+    "32":"32.png"
   },
   "app": {
- 
-    "launch": {
-      "web_url": "https://bitbucket.org/"
+     "launch": {
+      "web_url": "https://bitbucket.org/"	
     }
-//     "background":{
-//     "scripts": ["background.js"]
-// }
-
-  }
-  
+  } 
 }
